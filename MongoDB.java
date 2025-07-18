@@ -29,15 +29,15 @@ public class MongoDB {
         MongoDB qmongo = new MongoDB();
         qmongo.connect();
 
-        // qmongo.load();
-        // qmongo.loadNest();
+        qmongo.load();
+        qmongo.loadNest();
 
-        // System.out.println(qmongo.query1(1000));
-        // System.out.println(qmongo.query2(32));
-        // System.out.println(qmongo.query2Nest(32));
-        // System.out.println(qmongo.query3());
-        // System.out.println(qmongo.query3Nest());
-        // System.out.println(MongoDB.toString(qmongo.query4()));
+        System.out.println(qmongo.query1(1000));
+        System.out.println(qmongo.query2(32));
+        System.out.println(qmongo.query2Nest(32));
+        System.out.println(qmongo.query3());
+        System.out.println(qmongo.query3Nest());
+        System.out.println(MongoDB.toString(qmongo.query4()));
         System.out.println(MongoDB.toString(qmongo.query4Nest()));
     }
 
